@@ -7,27 +7,27 @@
 using namespace std;
 
 //Declarando variables
-// Variable para determinar decisiÛn de juego
+// Variable para determinar decisi√≥n de juego
 char decision = ' ';
 // Variable bandera para determinar si hay ganador
 int bandera = 0;
 //Variables para determinar si el jugador 1 o el jugador 2 ganaron la partida
 bool ganador1 = false, ganador2 = false, empate = false;
-//Variables que determinar·n la disponibilidad de las filas
+//Variables que determinar√°n la disponibilidad de las filas
 bool fila1 = true, fila2 = true, fila3 = true;
-//Variable para determinar ejecuciÛn del programa
+//Variable para determinar ejecuci√≥n del programa
 bool juego = true;
 bool reset = false;
-//Variables que contendr·n el n˙mero disponible de fichas en cada fila
+//Variables que contendr√°n el n√∫mero disponible de fichas en cada fila
 int fichas1 = 3, fichas2 = 5, fichas3 = 7;
 //Variable contador para determinar los turnos de los jugadores
 int turno = 1;
 //Variables para el marcador
 int puntos1, puntos2;
-//Variables que contendr·n los nombres de los jugadores
+//Variables que contendr√°n los nombres de los jugadores
 string jugador1, jugador2;
 
-//FunciÛn para graficar
+//Funci√≥n para graficar
 
 void gotoxy(int x, int y) {
     COORD coord = { 0,0 };
@@ -36,7 +36,7 @@ void gotoxy(int x, int y) {
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 }
 
-//FunciÛn para imprimir NIM en pantalla
+//Funci√≥n para imprimir NIM en pantalla
 
 void nim() {
 
@@ -73,7 +73,7 @@ void nim() {
     }
 }
 
-//FunciÛn para imprimir el marcador en pantalla
+//Funci√≥n para imprimir el marcador en pantalla
 
 void marcador() {
     gotoxy(6, 4);
@@ -82,7 +82,7 @@ void marcador() {
     cout << jugador2 << ": " << puntos2;
 }
 
-//FunciÛn para imprimir las fichas en pantalla
+//Funci√≥n para imprimir las fichas en pantalla
 
 void fichas() {
     //Variables que determinan las dimensiones de las fichas y el espacio entre ellas
@@ -90,7 +90,7 @@ void fichas() {
     int espacio = 4;
     char icono = 219;
 
-    //Declarando variable que medir· los espacios entre las fichas al imprimirlas
+    //Declarando variable que medir√° los espacios entre las fichas al imprimirlas
 
     //Imprimiendo fila 1
 
@@ -129,7 +129,7 @@ void fichas() {
     }
 }
 
-//FunciÛn para imprimir el tablero en pantalla
+//Funci√≥n para imprimir el tablero en pantalla
 
 void tablero() {
     
@@ -167,7 +167,7 @@ void tablero() {
     }
 }
 
-//FunciÛn para resetear las variables
+//Funci√≥n para resetear las variables
 
 void resetear() {
     bandera = 0;
@@ -189,7 +189,7 @@ void replay() {
     empate = false;
 }
 
-//FunciÛn para determinar ganador
+//Funci√≥n para determinar ganador
 
 void ganador() {
     // DETERMINANDO GANADOR
@@ -285,7 +285,7 @@ void ganador() {
     }
 }
 
-//FunciÛn principal
+//Funci√≥n principal
 
 int main() {
     while (juego) {
@@ -294,7 +294,7 @@ int main() {
             system("cls");
             nim();
             tablero();
-            //Solicitando informaciÛn de los jugadores
+            //Solicitando informaci√≥n de los jugadores
             gotoxy(6, 17);
             cout << "Ingrese el nombre del jugador 1: " << endl;
             gotoxy(6, 19);
@@ -397,7 +397,7 @@ int main() {
             marcador();
             gotoxy(25, 4);
             cout << "N I M";
-            //Determinando de quiÈn es el turno
+            //Determinando de qui√©n es el turno
             string jugadorActual = (turno % 2 == 0 ? jugador2 : jugador1);
             gotoxy(6, 17);
             cout << "Es el turno de " << jugadorActual << "." << endl;
