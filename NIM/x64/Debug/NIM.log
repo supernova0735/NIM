@@ -1,0 +1,10 @@
+﻿  nim.cpp
+C:\Users\mario\OneDrive\Documentos\Fernando\Documentos\Universidades\Mesoamericana\Electrónica\2023\Primer Semestre\Progra I\Proyectos\NIM Visual\NIM\nim.cpp(43,18): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\mario\OneDrive\Documentos\Fernando\Documentos\Universidades\Mesoamericana\Electrónica\2023\Primer Semestre\Progra I\Proyectos\NIM Visual\NIM\nim.cpp(91,18): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\mario\OneDrive\Documentos\Fernando\Documentos\Universidades\Mesoamericana\Electrónica\2023\Primer Semestre\Progra I\Proyectos\NIM Visual\NIM\nim.cpp(137,37): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\mario\OneDrive\Documentos\Fernando\Documentos\Universidades\Mesoamericana\Electrónica\2023\Primer Semestre\Progra I\Proyectos\NIM Visual\NIM\nim.cpp(138,35): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\mario\OneDrive\Documentos\Fernando\Documentos\Universidades\Mesoamericana\Electrónica\2023\Primer Semestre\Progra I\Proyectos\NIM Visual\NIM\nim.cpp(139,37): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\mario\OneDrive\Documentos\Fernando\Documentos\Universidades\Mesoamericana\Electrónica\2023\Primer Semestre\Progra I\Proyectos\NIM Visual\NIM\nim.cpp(140,35): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\mario\OneDrive\Documentos\Fernando\Documentos\Universidades\Mesoamericana\Electrónica\2023\Primer Semestre\Progra I\Proyectos\NIM Visual\NIM\nim.cpp(141,23): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\mario\OneDrive\Documentos\Fernando\Documentos\Universidades\Mesoamericana\Electrónica\2023\Primer Semestre\Progra I\Proyectos\NIM Visual\NIM\nim.cpp(142,21): warning C4309: 'inicializando': truncamiento de valor constante
+  NIM.vcxproj -> C:\Users\mario\OneDrive\Documentos\Fernando\Documentos\Universidades\Mesoamericana\Electrónica\2023\Primer Semestre\Progra I\Proyectos\NIM Visual\NIM\x64\Debug\NIM.exe
